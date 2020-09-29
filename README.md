@@ -11,14 +11,13 @@ create a model
 train and validate
 save the model achieves the best validation accuracy for each fold.
 
-**utility functions**
-
 **Models.py**- build MIL models (implemented different instance based pooling strategies and embedding level pooling stratigies)
-custom_layers.py - MIL attention modules and last sigmoid layer
-data_aug_op.py- data augmentation
-data_sorting.py- extract patient specific folders from data root path and categories them accoording to the child.xlsx (for child data only)
-data_generator.py- generate bags
-dataset.py- split data into several fold and retuen the lists of patient ID
+
+**custom_layers.py** - MIL attention modules and last sigmoid layer
+**data_aug_op.py**- data augmentation
+**data_sorting.py**- extract patient specific folders from data root path and categories them accoording to the child.xlsx (for child data only)
+**data_generator.py**- generate bags
+**dataset.py**- split data into several fold and retuen the lists of patient ID
 
 
 Those files can be used to obtain the visualization tools for any of the models.
