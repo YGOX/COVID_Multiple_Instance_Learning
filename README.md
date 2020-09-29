@@ -3,6 +3,7 @@
 training_models:
 
 The running verison of the code is kept in IIAT server as well under Alex' path. To prepare data, create two subfolders (1 and 0), put covid CT images in 1 and non-covid CT images in 0. 
+
 **main.py**:
 prepare xvalidation, split datasets into train, validation and testing, according to the patient ID.
 generate bags of ct slices.
