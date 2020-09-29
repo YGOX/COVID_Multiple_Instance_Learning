@@ -22,7 +22,7 @@ Utility functions:
 **dataset.py**- split data into several fold and retuen the lists of patient ID
 
 
-Those files can be used to obtain the visualization tools for any of the models.
+Visualization tools:
 
 **tsne.py:** projects the models' predictions for each bag on a 2D space using t-distributed stochastic neighbour embedding (t-SNE) and allows one to perform inter-subject clustering analysis.
 
