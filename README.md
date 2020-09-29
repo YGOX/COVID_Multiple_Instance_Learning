@@ -21,7 +21,6 @@ Utility functions:
 **data_generator.py**- generate bags
 **dataset.py**- split data into several fold and retuen the lists of patient ID
 
-
 Visualization tools:
 
 **tsne.py:** projects the models' predictions for each bag on a 2D space using t-distributed stochastic neighbour embedding (t-SNE) and allows one to perform inter-subject clustering analysis.
