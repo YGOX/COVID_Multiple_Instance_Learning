@@ -1,6 +1,6 @@
 ##COVID Multiple Instance Learning (MIL)
 
-training_models:
+Training_models:
 
 The running verison of the code is kept in IIAT server as well under Alex' path. To prepare data, create two subfolders (1 and 0), put covid CT images in 1 and non-covid CT images in 0. 
 
@@ -12,6 +12,8 @@ train and validate
 save the model achieves the best validation accuracy for each fold.
 
 **Models.py**- build MIL models (implemented different instance based pooling strategies and embedding level pooling stratigies)
+
+Utility functions:
 
 **custom_layers.py** - MIL attention modules and last sigmoid layer
 **data_aug_op.py**- data augmentation
